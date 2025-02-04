@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+            scrollbar-width: none;
+           
+        }
+        body{
+            overflow-x: hidden;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            gap: 9%;
+            margin-left:130px;
+        }
+        img{
+            width: 250px;
+            height: 35vh;
+            border-radius: 20px;
+        }
+        .about{
+            width: 70%;
+            margin: auto;
+        }
+        #i1{
+            width: 80%;
+            height: 60%;
+            margin-left: 160px;
+        }
+        .i2{
+            width: 80px;
+            height: 80px;
+        }
+        h2,pre{
+            padding-left: 10px;
+        }
+        .container1{
+            display: grid;
+            margin-left: 200px;
+            margin-right: 200px;
+            grid-template-columns: 30% 25% 25%; 
+        }
+        #a1{
+            margin-top: 200px;
+        }
+        .image{
+            display:flex;
+            margin-bottom: 10px;
+            
+        }
+        .content{
+            display: flex;
+        }
+        .f{
+            margin-left: 10px;
+        }
+        .f1{
+            margin-left: 10px;
+        }
+        .popular{
+            display: grid;
+            grid-template-columns:auto auto auto;
+        }
+        .popular pre{
+           border:1px solid black;
+           color: white;
+           background-color: black;
+           opacity: 0.8;
+           margin-right: 200px;
+           border-radius: 5px;
+           margin-bottom: 25px;
+           
+
+        }
+        .card h3,.card p{
+            text-align: center;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 3px 3px 20px 3px lightcoral;
+            width: 90%;
+            margin: auto;
+            background-color:white;
+            opacity: 0.8;
+            position: sticky;
+          
+            top: 0;
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            margin: 20px;
+           
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></i></a>
+        <a href="#g1">My Food </a>
+        <a href="#cone">Mail</a>
+    </nav>
+    <div id="g1"></div>
+    <div class="container" style="margin-top: 30px;">
+        <div class="card">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="card">
+            <img src="https://www.w3schools.com/w3images/steak.jpg" alt="">
+            <h3>Let Me Tell You About This Steak</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+
+            </p>
+        </div>
+        <div class="card">
+            <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+            <h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum
+                What else?</p>
+
+        </div>
+        <div class="card">
+            <img src="https://www.w3schools.com/w3images/wine.jpg" alt="">
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+        </div>
+        <div class="card">
+            <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="">
+            <h3>All I Need Is a Popsicle</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="card">
+            <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="">
+            <h3>Salmon For Your Skin</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+
+            </p>
+        </div>
+        <div class="card">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+            <h3>The Perfect Sandwich, A Real Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum</p>
+        </div>
+        <div class="card">
+            <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="">
+            <h3>Le French</h3>
+            <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum</p>
+        </div>
+    </div>
+    
+    <div class="about" id="a1">
+        <h1 style="text-align: center;">About Me, The Food Man</h1> <br>
+        <img src="https://www.w3schools.com/w3images/chef.jpg" alt="" id="i1">
+        <h2 style="text-align: center; margin-top: 20px;">I am Who I Am!</h2>
+        <p style="text-align: center; margin-top: 20px;">With Passion For Real, Good Food
+        </p>
+        <p style="text-align: center; margin-top: 20px; margin-bottom: 100px;">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+    <footer>
+        <div class="container1" id="cone">
+            <div class="footer">
+                <h3>FOOTER</h3>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            </div>
+            <div class="blog">
+                <h3>BLOG POSTS</h3>
+                <div class="image">
+                    <img src="https://www.w3schools.com/w3images/workshop.jpg" class="i2">
+                    <div class="f">
+                    <h5>Lorem</h5>
+                    <p>sed mattis nunc</p>
+                </div>
+                </div>
+              
+                    <div class="content">
+                        <img src="https://www.w3schools.com/w3images/gondol.jpg" class="i2">
+                        <div class="f1">
+                        <h5>Ipsum</h5>
+                        <p>Praes tincl sed</p>
+                    </div>
+                    </div>
+                </div>
+
+        
+                <div class="popular">
+                <h3 style="margin-bottom: 20px;">POPULAR TAGS</h3> <br>
+ <br> <br><br><br>
+                <pre> <br>       Travel        New York <br>
+Dinner         Salmon        France <br>
+Drinks         Ideas         Flavors <br>
+Cuisine        Chicken       Dressing  <br>
+Fried          Fish          Duck </p></pre> 
+               
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
